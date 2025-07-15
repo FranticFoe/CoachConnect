@@ -79,6 +79,7 @@ export default function BookSlot() {
 
         await fetchAvailabilities();
         setBookingMode(false);
+        await fetchUserBookings();
         setSelectedRows(new Set());
     };
 
