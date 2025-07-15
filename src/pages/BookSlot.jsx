@@ -5,7 +5,7 @@ import useLocalStorage from "use-local-storage";
 import { jwtDecode } from "jwt-decode";
 
 const url =
-    "https://gym-api-mauve.vercel.app/";
+    "https://gym-api-mauve.vercel.app";
 
 export default function BookSlot() {
     const [userAuthToken] = useLocalStorage("userAuthToken", "");
