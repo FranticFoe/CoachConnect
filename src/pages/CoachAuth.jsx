@@ -14,7 +14,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 export default function CoachAuth() {
     const url =
-        "https://d6f2da03-86f1-44a0-b30a-17b0e56123a4-00-jaox2jqn66ea.sisko.replit.dev";
+        "https://gym-api-mauve.vercel.app";
 
     const [mode, setMode] = useState("login");
     const [identifier, setIdentifier] = useState("");
